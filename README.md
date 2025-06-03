@@ -1,53 +1,77 @@
+# SK Logistics Solutions – E-Commerce Warehouse System
 
-## About Laravel
+A console and web-based E-Commerce Warehouse Management System developed using **C++** and enhanced into a full-stack **Laravel** web application. This project demonstrates efficient use of Data Structures & Algorithms to manage warehouse operations such as product handling, order processing, delivery prioritization, and customer interaction.
 
-Laravel is a web application framework with expressive, elegant syntax. We believe development must be an enjoyable and creative experience to be truly fulfilling. Laravel takes the pain out of development by easing common tasks used in many web projects, such as:
+## 👩‍💻 Developed By
+- Sana Ali (01-134241-042)
+- Kashaf Zahra (01-134241-045)
 
-- [Simple, fast routing engine](https://laravel.com/docs/routing).
-- [Powerful dependency injection container](https://laravel.com/docs/container).
-- Multiple back-ends for [session](https://laravel.com/docs/session) and [cache](https://laravel.com/docs/cache) storage.
-- Expressive, intuitive [database ORM](https://laravel.com/docs/eloquent).
-- Database agnostic [schema migrations](https://laravel.com/docs/migrations).
-- [Robust background job processing](https://laravel.com/docs/queues).
-- [Real-time event broadcasting](https://laravel.com/docs/broadcasting).
+## 🎯 Problem Statement
+Modern e-commerce warehouses struggle with:
+- Poor customer interaction and record maintenance
+- Lack of prioritization for delivery orders
+- Complex user interfaces for warehouse staff
 
-Laravel is accessible, powerful, and provides tools required for large, robust applications.
+**SK Logistics Solutions** provides a solution by:
+- Automating warehouse tasks using optimized data structures
+- Enabling priority-based delivery processing
+- Offering a user-friendly and secure interface
 
-## Learning Laravel
+## ✅ Project Objectives
+- Improve customer satisfaction through feedback and complaint handling
+- Prioritize delivery orders using a min-heap (based on distance)
+- Secure and tailored user authentication
+- Implement CRUD operations for product inventory
+- Efficient order handling via Takeaway and Home Delivery modes
 
-Laravel has the most extensive and thorough [documentation](https://laravel.com/docs) and video tutorial library of all modern web application frameworks, making it a breeze to get started with the framework.
+## 🧠 Key Data Structures Used
+- **AVL Tree**: Manages Takeaway orders with fast search and insert/delete operations.
+- **Priority Queue (Min Heap)**: Prioritizes Delivery Orders based on shortest distance.
+- **Linked List**: Handles dynamic home delivery order management.
+- **Queue**: Stores and manages customer complaints (FIFO).
+- **Stack**: Stores recent orders (LIFO).
 
-You may also try the [Laravel Bootcamp](https://bootcamp.laravel.com), where you will be guided through building a modern Laravel application from scratch.
+## 🧰 Libraries Used (C++)
+- `iostream`, `iomanip`, `algorithm`, `queue`, `stack`, `vector`, `fstream`, `windows.h`, `string`
 
-If you don't feel like reading, [Laracasts](https://laracasts.com) can help. Laracasts contains thousands of video tutorials on a range of topics including Laravel, modern PHP, unit testing, and JavaScript. Boost your skills by digging into our comprehensive video library.
+## 🧱 OOP Concepts Applied
+- **Encapsulation**: Organizes code within modular classes
+- **Inheritance**: Specialized user roles like DeliveryUser extend base User class
+- **Abstraction**: Hides implementation from the interface for user-friendliness
 
-## Laravel Sponsors
+---
 
-We would like to extend our thanks to the following sponsors for funding Laravel development. If you are interested in becoming a sponsor, please visit the [Laravel Partners program](https://partners.laravel.com).
+## 🌐 Laravel Web Application
 
-### Premium Partners
+The console-based C++ backend logic was translated into a modern Laravel web app with full MVC structure.
 
-- **[Vehikl](https://vehikl.com)**
-- **[Tighten Co.](https://tighten.co)**
-- **[Kirschbaum Development Group](https://kirschbaumdevelopment.com)**
-- **[64 Robots](https://64robots.com)**
-- **[Curotec](https://www.curotec.com/services/technologies/laravel)**
-- **[DevSquad](https://devsquad.com/hire-laravel-developers)**
-- **[Redberry](https://redberry.international/laravel-development)**
-- **[Active Logic](https://activelogic.com)**
+### 🔧 Tech Stack
+- **Laravel** (PHP MVC Framework)
+- **MySQL** (via phpMyAdmin)
+- **Blade Templates** for views
+- **Bootstrap/CSS** for styling
 
-## Contributing
+### 📂 Laravel Modules
+- **User Authentication**: Built-in Laravel Auth
+- **Models**: User, Product, Order, Feedback, Complaint
+- **Controllers**: Handle business logic for each model
+- **Routes**: Define navigation and API endpoints
 
-Thank you for considering contributing to the Laravel framework! The contribution guide can be found in the [Laravel documentation](https://laravel.com/docs/contributions).
+### 🧪 Features
+- User Registration & Login
+- Add, Edit, Delete Products
+- Takeaway & Delivery Order Placement
+- Feedback & Complaint Management
+- Priority-based Delivery Processing
 
-## Code of Conduct
+---
 
-In order to ensure that the Laravel community is welcoming to all, please review and abide by the [Code of Conduct](https://laravel.com/docs/contributions#code-of-conduct).
+## 🖥️ How to Run
 
-## Security Vulnerabilities
+### Console-Based (C++)
+1. Compile with any C++11+ compatible compiler
+2. Run `main.cpp` file
 
-If you discover a security vulnerability within Laravel, please send an e-mail to Taylor Otwell via [taylor@laravel.com](mailto:taylor@laravel.com). All security vulnerabilities will be promptly addressed.
-
-## License
-
-The Laravel framework is open-sourced software licensed under the [MIT license](https://opensource.org/licenses/MIT).
+### Web-Based (Laravel)
+1. Install [XAMPP](https://www.apachefriends.org/index.html) and [Composer](https://getcomposer.org/)
+2. Clone repo:  https://github.com/SanaAli17/ECommerceWarehouseSystem.git
