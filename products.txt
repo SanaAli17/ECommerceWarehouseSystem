@@ -1,0 +1,4 @@
+Chips 567
+Pepsi 80
+Burger 670
+Pizza 1100
