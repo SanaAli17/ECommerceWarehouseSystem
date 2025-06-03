@@ -1,0 +1,4 @@
+sara Fries 3 1420 F11 Islamabad st 8 820 41
+Sana Pepsi 4 720 F10 Islamabad st 14 400 20
+Sana Pepsi 2 240 F11/1 st 8 House 125 80 4
+Sana Burger 12 8280 F11/1 st 6 240 12
