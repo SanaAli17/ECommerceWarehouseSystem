@@ -3,8 +3,8 @@
 A console and web-based E-Commerce Warehouse Management System developed using **C++** and enhanced into a full-stack **Laravel** web application. This project demonstrates efficient use of Data Structures & Algorithms to manage warehouse operations such as product handling, order processing, delivery prioritization, and customer interaction.
 
 ## 👩‍💻 Developed By
-- Sana Ali (01-134241-042)
-- Kashaf Zahra (01-134241-045)
+- Sana Ali 
+- Kashaf Zahra 
 
 ## 🎯 Problem Statement
 Modern e-commerce warehouses struggle with:
